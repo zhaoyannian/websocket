@@ -1,9 +1,5 @@
 基于Vue + WebSocket实时聊天
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 1f1725db848cb80924c59227a86f3ad124c2551f
 ``` bash
 # install dependencies
 npm install
