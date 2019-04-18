@@ -122,7 +122,7 @@ export default {
 	},
 	beforeRouteEnter (to, from, next) {
 		if( localStorage.self ) return next();
-		next('/login');
+    next('/login');
 	},
 	computed: {
 		...mapState(['message', 'title', 'users', 'self'])

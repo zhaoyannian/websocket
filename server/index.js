@@ -34,15 +34,6 @@ io.on('connection', socket => {
 				online: userObj,
 			}
 		});
-		// var saveLogin = new login({
-		// 	time: Date.now(),
-		// 	ip: socket.ip,
-		// 	user: userObj,
-		// 	locality: socket.locality,
-		// }).save(err => {
-		// 	if( err ) return console.log(`保存错误:${err}`);
-		// 	console.log('保存成功');
-		// });
 	})
 
 	// 客户端断开连接
